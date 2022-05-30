@@ -1,0 +1,41 @@
+---
+
+title: "A3: Incarceration"
+output: html_document 
+
+---
+
+
+### Introduction 
+
+The war on drugs was started by president Richard Nixon in 1971 and was later enforced by president Ronald Reagan. Though its original intention was to resolve social issues in failing neighborhoods and cities by preventing drug abuse, the drug war became an excuse for unjust court rulings. As a result, there was a disproportionate amount of Black and Latino people who had mandatory sentences for minor crimes. To this day, the media falsely portrays Black people as addictive users of cocaine where in reality, White people sold and used it more frequently. Not only did the war on drugs deepen racial discrimination, it also criminalized Black Americans and other ethnic minorities in unjust manners. In this report, I will be exploring the relationship between a variety of variables in the incarceration data set provided by the Vera Institute, which include: the years, the location (county, state), the total prisoner population and lastly, all the prisoner population for White people and people of color. These variables help generate visual trends that propel my analysis and ultimately connects to racial discrimination and the war on drugs. 
+
+
+### Summary Information 
+
+This report explores variables regarding race, location, and prison population that relates to the effects of the war on drugs. Based on location, I found that the Los Angeles County in California had the highest prisoner count of people of color from 1970 to 2018, which is most likely due to its dense population. After analyzing the ratio of POC prisoner population to the total prison population, I found out that they take up almost 59% of the total prison population. On the other hand, the ratio of non-POC prisoner population to the total prison population was less than 40%. In 2016, Texas had the highest population of POC prisoners as well as non-POC prisoners, which indicates that they also had the highest incarceration rates at the time. According to my analysis, the total prison population for POC and those who are non-POC increases sharply every year starting from 1970 to 2016. The highest number of POC prisoners during those years was 730339 while the highest number of non-POC prisoners was 475442, just a little less than half of the POC prisoner count. This leads to the finding that in 2009, the total prison population across all states had reached its all time high. 
+
+
+### Trends Over Time Chart
+
+This line chart shows the total number of POC prisoner change compared to the total number of non-POC prisoner change from 1970 to 2016. The red line that represents the POC prisoners appears to have a gap between the other blue line, meaning overall, the number of POC prisoners increases significantly more than non-POC prisoners. By no coincidence, this increase started right before 1985, which is when president Ronald Reagan began enforcing the war on drugs. This caused a disproportionate amount of people of color to be sentenced to prison unjustly. The chart shows the general trend of prisoner population and we can conclude from this visualization that there is a dramatic difference between the numbers of ethnic groups versus White Americans. 
+
+
+``````{r, echo = FALSE, message = FALSE, warning = FALSE, code = readLines("chart1.R")}
+```
+
+### Variable Comparison Chart
+
+The stacked bar chart shows the proportion of the population for all ethnicity, including White Americans, within the overall prison and jail population combined. The design of this chart tells us that from 1985 to 2016, the US tends to have similar amounts of Black and White population in prison and jail, followed by Latinos, Native Americans, other race, and Asian American/Pacific Islander. There is also a visible increase of the entire prison and jail population, which is most likely due to the effects of the war on drugs. 
+
+
+``````{r, echo = FALSE, message = FALSE, warning = FALSE, code = readLines("chart2.R")}
+```
+
+### Map
+
+This map shows the total number of POC prisoners throughout the years of 1970 to 2018. We can tell from the map that California has the greatest amount of POC prisoners with Texas coming in as second. This is most likely due to their large size and population. Additionally, the map design helps analyze the effects of the war on drugs on different locations in terms of the imprisonment of POC. It also confirms one of my summary variables that said the Los Angeles County in California has the highest number of POC prisoners. 
+
+
+``````{r, echo = FALSE, message = FALSE, warning = FALSE, code = readLines("map.R")}
+```
