@@ -4,7 +4,6 @@ incarceration_df <- read.csv(file = "https://raw.githubusercontent.com/vera-inst
 #Load packages
 library(dplyr)
 library(tidyverse)
-install.packages("knitr")
 library(knitr)
 
 #What is the location (county, state) with the highest number of people of color in prison?

@@ -2,7 +2,6 @@
 library(dplyr)
 library(tidyverse)
 library(ggplot2)
-install.packages("reshape2")
 library(reshape2)
 
 #Load data 

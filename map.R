@@ -3,9 +3,7 @@ library("dplyr")
 library("ggplot2")
 library("plotly")
 library("scales")
-install.packages("maps")
 library("maps")
-install.packages("mapproj")
 library("mapproj")
 
 #Load data 

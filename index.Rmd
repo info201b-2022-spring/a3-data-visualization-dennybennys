@@ -1,9 +1,8 @@
 ---
-
 title: "A3: Incarceration"
-output: html_document 
-
+output: html_document
 ---
+
 
 
 ### Introduction 

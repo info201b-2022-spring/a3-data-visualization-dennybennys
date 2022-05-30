@@ -2,11 +2,8 @@
 library("dplyr")
 library("tidyverse", warn.conflicts = FALSE)
 library("ggplot2")
-install.packages("plotly")
 library("plotly", warn.conflicts = FALSE)
-install.packages("rjson")
 library("rjson", warn.conflicts = FALSE)
-install.packages("kableExtra")
 library("kableExtra")
 library("reshape2")
 
